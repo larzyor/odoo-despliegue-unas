@@ -1,0 +1,11 @@
+# Configuración para la instalación desde código fuente (WSL). Copiar a odoo.conf
+# y reemplazar los valores <...>. NO subir odoo.conf real al repositorio.
+[options]
+admin_passwd = <contraseña-maestra>
+db_host = 127.0.0.1
+db_port = 5432
+db_user = odoo
+db_password = <contraseña-del-rol-odoo>
+addons_path = /home/<usuario>/odoo18/odoo/addons,/home/<usuario>/odoo18/custom_addons
+http_port = 8069
+logfile = /home/<usuario>/odoo18/odoo.log
